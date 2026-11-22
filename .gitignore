@@ -1,0 +1,36 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+
+# AWS CDK & Node
+cdk.out/
+node_modules/
+package-lock.json
+.cdk.staging/
+cdk.context.json
+
+# Generated Local Data & DuckDB Lakehouse
+data/
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# OS & Editor
+.DS_Store
+.vscode/
+.idea/

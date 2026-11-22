@@ -1,0 +1,19 @@
+[project]
+name = "aws-finops-cost-intelligence-platform"
+version = "1.0.0"
+description = "Enterprise Cloud FinOps & Spend Intelligence Lakehouse on AWS aligned with the FinOps FOCUS 1.0 standard"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+exclude = [".venv", "cdk.out", "node_modules", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

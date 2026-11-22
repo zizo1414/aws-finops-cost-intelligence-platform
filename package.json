@@ -1,0 +1,9 @@
+{
+  "name": "aws-finops-cost-intelligence-platform-cdk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local AWS CDK CLI wrapper for offline cdk synth and deployment",
+  "devDependencies": {
+    "aws-cdk": "^2.170.0"
+  }
+}
